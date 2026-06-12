@@ -33,9 +33,22 @@ console.log("logical operator")
 console.log(a > 0 && b > 0)
 console.log(a > 0 && b < 0)
 console.log(a < 0 || b < 0)
-console.log(!(a < 0))
+console.log(!(a < 0)) 
 
+// unary operator
+var c= 30
 
+console.log("unary operator")
+console.log(c++)
+console.log(c--)
+console.log(++c)
+console.log(--c)
+
+//ternary operator
+console.log("ternary operator")
+var result = (a > b)  ?"a is greater":" b is greater"
+// var variable name= (condtion) ? truevalue: faslevalue;
+console.log(result)
 
 
 
