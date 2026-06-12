@@ -21,13 +21,22 @@ console.log(a**=10)
 console.log("comparision operator")
 // comparision
 var a=10
-var b=20
+var b=10
 console.log(a==b)
 console.log(a!=b)
 console.log(a<=b)
 console.log(a>=b)
 console.log(a>b)
 console.log(a<b)
+//logical operator
+console.log("logical operator")
+console.log(a > 0 && b > 0)
+console.log(a > 0 && b < 0)
+console.log(a < 0 || b < 0)
+console.log(!(a < 0))
+
+
+
 
 
 
